@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/concrete-701.png);
+    /* background-size: cover; */
+}
+
+/* ======= content width: this centers content inside their parent element */
+
+
+
+/* ======= primary nav */
+
+nav {
+    /* background-color: grey; */
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li {
+    /* display: none; */
+    /* background-color: white; */
+    font-family: franklin-gothic-condensed, sans-serif;
+    font-weight: 600;
+    text-decoration-color: rgb(192, 192, 192);
+    
+}
+
+nav a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: white;
+}
+/* ======= end primary nav */
+
+/* ======= header */
+
+header {
+    border-top: 1px solid black;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+  }
+.sections {
+    width: calc( 100% * 7 );
+    height: 100%;
+}
+section {
+   width:calc( 100% / 7 );
+   height:100%;
+   position: relative;
+   float:left;
+   /* height: 1080px; */
+    
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-width {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    /*bottom: 115px;*/
+    /* temporary border so you can see the zones in action */
+    /* border: 1px dotted rgba(0, 0, 0, .15); */
+}
+
+
+
+
+
+/* .slipon {
+    padding: 32px;
+} */
+
+.authentic{
+    padding: 32px;
+}
+
+.era{
+    padding: 32px;
+}
+
+.sk8hi{
+    padding: 32px;
+}
+
+
+
+section h2 {
+    font-size: 64px;
+    font-family: franklin-gothic-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    padding-top: 16px;
+    /*  */
+}
+
+
+section p {
+    font-family: franklin-gothic-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 66.6%;
+    height:100%;
+    color: white;
+}
+.content {
+    position:relative;
+    width:100%;
+    height:50%;
+    display:flex;
+    justify-content: space-evenly
+}
+
+img{
+    display: block;
+    /* height:400px; */
+    width: 80%;
+    transform-origin:left bottom;
+    /* background-color:blue; */
+}
+.sec_10 {
+    background-color: rgba(193, 39, 45, .75);
+}
+
+
+.sec_20 {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.sec_30 {
+    background-color: rgba(193, 39, 45, .75);
+
+}
+
+
+.sec_40 {
+    background-color: rgba(0, 0, 0, .75);
+
+}
+
+
+.sec_50 {
+    background-color: rgba(193, 39, 45, .75);
+
+}
+
+.sec_60 {
+    background-color: rgba(0, 0, 0, .75);
+
+}
+
+.sec_70 {
+    background-color: rgba(193, 39, 45, .75);
+
+}
+
+/* ======= end header */
+
+/* ======= footer */
+
+footer {}
